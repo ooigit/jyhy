@@ -1,0 +1,22 @@
+/* header */
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	display: inline;
+	margin: 5px;
+	padding: 0px 10px;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+}
+
+/* containt */
+

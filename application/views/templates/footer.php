@@ -1,4 +1,5 @@
-	</div>
-<strong>&copy;2011</strong>
-</body>
-</html>
+<hr />
+
+<footer class="span-24 last">
+<h3>footer</h3>
+</footer>
