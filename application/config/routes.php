@@ -41,6 +41,7 @@
 $route['404_override'] = '';
 
 $route['products/create'] = 'products/create';
+$route['products/gallery'] = 'products/gallery';
 $route['products/(:any)'] = 'products/show/$1';
 $route['products'] = 'products';
 

@@ -87,6 +87,26 @@
 	</div>
 </div>
 
-<hr />
 
-<div class="prepend-4 span-10"><h2>links</h2></div>
+<hr />
+<div class="prepend-1 span-5 append-0 last">
+	<span><img src="/assets/images/home/marker.png" />&nbsp;总经理致辞</span>
+	<p><a href="#"><img src="/assets/images/home/manager.png" /></a></p>
+	<p><span>华宇公司始终坚持诚信经营、创新发展的理念。</span></p>
+	</div>
+<div class="prepend-1 span-5 append-0 last">
+	<span><img src="/assets/images/home/marker.png" />&nbsp;荣誉证书</span>
+	<p><a href="#"><img src="/assets/images/home/honor.png" /></a></p>
+	<p><span>华宇公司始终坚持诚信经营、创新发展的理念。</span></p>
+</div>
+<div class="prepend-1 span-5 append-1 colborder last">
+	<span><img src="/assets/images/home/marker.png" />&nbsp;共享文件</span>
+	<p><a href="#"><img src="/assets/images/home/file.png" /></a></p>
+	<p><span>华宇公司始终坚持诚信经营、创新发展的理念。</span></p>
+</div>
+<div class="prepend-0 span-4 append-1 last">
+	<a href="#"><img src="/assets/images/home/sale.png" /></a>
+	<a href="#"><img src="/assets/images/home/consult.png" /></a>
+	<a href="#"><img src="/assets/images/home/field.png" /></a>
+</div>
+

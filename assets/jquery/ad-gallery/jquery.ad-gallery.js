@@ -9,7 +9,7 @@
  */
 (function($) {
   $.fn.adGallery = function(options) {
-    var defaults = { loader_image: 'loader.gif',
+    var defaults = { loader_image: '/assets/jquery/ad-gallery/loader.gif',
                      start_at_index: 0,
                      description_wrapper: false,
                      thumb_opacity: 0.7,
@@ -589,10 +589,10 @@
           if(this.current_image) {
             var old_image = this.current_image;
             var old_description = this.current_description;
+                if(old_description) old_description.remove();
             old_image.animate(animation.old_image, animation_speed, easing,
               function() {
                 old_image.remove();
-                if(old_description) old_description.remove();
               }
             );
           };

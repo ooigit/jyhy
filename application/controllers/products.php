@@ -57,5 +57,10 @@ class Products extends CI_Controller {
 
 	}
 
+	public function gallery()
+	{
+		$this->load->view('products/gallery');
+	}
+
 }
 ?>
