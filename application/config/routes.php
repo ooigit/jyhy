@@ -40,6 +40,10 @@
 
 $route['404_override'] = '';
 
+$route['products/create'] = 'products/create';
+$route['products/(:any)'] = 'products/show/$1';
+$route['products'] = 'products';
+
 $route['default_controller'] = 'pages/view';
 $route['(:any)'] = 'pages/view/$1';
 

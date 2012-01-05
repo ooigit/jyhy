@@ -86,3 +86,7 @@
 		<img src="/assets/images/slide/example-frame.png" width="970" height="460" alt="Example Frame" id="frame">
 	</div>
 </div>
+
+<hr />
+
+<div class="prepend-4 span-10"><h2>links</h2></div>
