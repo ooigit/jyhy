@@ -1,5 +1,5 @@
 #container {
-	width:780px;
+	width:880px;
 	padding:10px;
 	margin:0 auto;
 	position:relative;
@@ -7,7 +7,7 @@
 }
 
 #example {
-	width:800px;
+	width:900px;
 	height:450px;
 	position:relative;
 }
@@ -15,7 +15,7 @@
 #frame {
 	position:absolute;
 	z-index:0;
-	width:970px;
+	width:1070px;
 	height:460px;
 	top:0px;
 	left:-98px;
@@ -40,7 +40,7 @@
 */
 
 .slides_container {
-	width:770px;
+	width:870px;
 	overflow:hidden;
 	position:relative;
 	display:none;
@@ -55,7 +55,7 @@
 */
 
 .slides_container div.slide {
-	width:770px;
+	width:870px;
 	height:370px;
 	display:block;
 }
@@ -103,7 +103,7 @@
 	padding:5px 20px 0 20px;
 	background:#000;
 	background:rgba(0,0,0,.5);
-	width:740px;
+	width:840px;
 	font-size:1.3em;
 	line-height:1.33;
 	color:#fff;

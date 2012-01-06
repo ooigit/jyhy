@@ -3,6 +3,7 @@
 
 body {
 	background: #f1f2f3;
+    font-family: "Microsoft YaHei", "微软雅黑";
 }
 
 div.container {
@@ -14,10 +15,10 @@ div.main {
 	border-left:solid;
 	border-bottom:solid;
 	border-width:1px;
-	border-color:#ddd;
+	border-color:#e1e2e3;
 	box-shadow: 0px 10px 20px #888888;
+    background-image: url(/assets/images/background_06.gif);
 }
-
 
 /* header */
 
@@ -53,12 +54,15 @@ nav ul li a {
 
 nav ul li a:hover {
 	color: black;
+	text-decoration:none;
 }
 
 /* footer */
 
 footer {
+	display: block;
 	text-align: center;
+	background: red;
 }
 
 
@@ -71,4 +75,38 @@ div#image-and-description {
 	border-width:1px;
 	border-color:#ddd;
 	box-shadow: 0px 10px 20px #888888 inset;
+}
+
+
+
+a, a:hover {
+	color:#000;	
+	text-decoration:none;
+}
+
+
+.large {
+		font-size: 14px;
+}
+
+.small {
+		font-size: 12px;
+}
+
+.time {
+	text-align: right;
+	font-size: 12px;
+	color: #787878;
+}
+
+.color_fuscous {
+		color: #323232;
+}
+
+.color_light {
+		color: #787878;
+}
+
+.color_white {
+		color: #FFF;
 }

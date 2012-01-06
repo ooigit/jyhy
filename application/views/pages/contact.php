@@ -1,27 +1,3 @@
-<style type="text/css">
-.large {
-		font-family: "微软雅黑";
-			font-size: 14px;
-}
-
-.small {
-		font-family: "微软雅黑";
-			font-size: 12px;
-}
-
-.color_fuscous {
-		color: #323232;
-}
-
-.color_light {
-		color: #787878;
-}
-
-.color_white {
-		color: #FFF;
-}
-</style>
-
 
 <script src="http://api.map.baidu.com/api?v=1.2" type="text/javascript"></script>
 <script type="text/javascript">
@@ -49,17 +25,31 @@ function loadScript() {
 
 window.onload = loadScript;
 </script>
-<div class="prepend-3 span-6 append-1"><br>
-<p class="large">
-<span class="color_fuscous">公司：</span>江阴市华宇有限公司<br>
-<span class="color_fuscous">地址：</span>上海市闵行区东川路800号<br>
-<span class="color_fuscous">电话：</span>021-34200000<br>
-<span class="color_fuscous">传真：</span>021-34207255<br>
-<span class="color_fuscous">邮编：</span>200240<br>
-</p>
-</div>
-<div class="prepend-0 span-13 append-1 last">
-	<!-- 地图画板 -->
-	<div id="map" style="BORDER-RIGHT: 3px inset; BORDER-TOP: 3px inset; BACKGROUND: transprant; BORDER-LEFT: 3px inset; BORDER-BOTTOM: 3px inset; text-align:center; width:500px; height:320px"></div>
-</div>
 
+<div id="container">
+<div id="example">
+	<div class="prepend-0 span-3 append-1">
+		总厂<br>
+		分厂1<br>
+		分厂2<br>
+		分厂3<br>
+	</div>
+	<div class="prepend-1 span-19 append-0 last">
+		<img alt="" src="/assets/images/contact.jpg">
+		<div class="prepend-0 span-6 append-1"><br>
+			<p class="large">
+				<span class="color_fuscous">公司：</span>江阴市华宇有限公司<br>
+				<span class="color_fuscous">地址：</span>上海市闵行区东川路800号<br>
+				<span class="color_fuscous">电话：</span>021-34200000<br>
+				<span class="color_fuscous">传真：</span>021-34207255<br>
+				<span class="color_fuscous">邮编：</span>200240<br>
+			</p>
+		</div>
+		<div class="prepend-0 span-12 append-0 last">
+			<!-- 地图画板 -->
+				<div id="map" style="BORDER-RIGHT: 3px inset; BORDER-TOP: 3px inset; BACKGROUND: transprant; BORDER-LEFT: 3px inset; BORDER-BOTTOM: 3px inset; text-align:center; width:450px; height:250px"></div>
+			<br />
+		</div>
+	</div>
+</div>
+</div>
