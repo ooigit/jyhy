@@ -1,4 +1,4 @@
-<ul class="ad-thumb-list">
+<ul id="ad-thumb-list" class="ad-thumb-list">
   <li>
     <a href="/assets/images/gallery/10.jpg">
       <img src="/assets/images/gallery/thumbs/t10.jpg" title="A title for 10.jpg" alt="This is a nice, and incredibly descriptive, description of the image 10.jpg" class="image1">
@@ -22,11 +22,6 @@
   <li>
     <a href="/assets/images/gallery/14.jpg">
       <img src="/assets/images/gallery/thumbs/t14.jpg" title="A title for 14.jpg" alt="This is a nice, and incredibly descriptive, description of the image 14.jpg" class="image5">
-    </a>
-  </li>
-  <li>
-    <a href="/assets/images/gallery/1.jpg">
-      <img src="/assets/images/gallery/thumbs/t1.jpg" class="image0">
     </a>
   </li>
   <li>

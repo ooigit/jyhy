@@ -1,15 +1,29 @@
+
 /* body */
+
+body {
+	background: #f1f2f3;
+}
+
+div.container {
+	background: #FFF;
+}
 
 div.main {
 	border-right:solid;
 	border-left:solid;
 	border-bottom:solid;
 	border-width:1px;
-	border-color:#333333;
+	border-color:#ddd;
+	box-shadow: 0px 10px 20px #888888;
 }
 
 
 /* header */
+
+nav {
+	display: inline;
+}
 
 nav ul {
 	list-style-type: none;
@@ -17,10 +31,28 @@ nav ul {
 
 nav ul li {
 	list-style-type: none;
-	display: inline-block;
-	display: inline;
-	margin: 5px;
-	padding: 0px 10px;
+	display: block;
+	float: left;
+	text-align: center;
+	background-image: url("/assets/images/nav/nav-middle.jpg");
+}
+
+nav ul li:hover {
+	background-image: url("/assets/images/nav/nav-middle-hover.jpg");
+}
+
+nav ul li a {
+	display: block;
+	height: 24px;
+	width: 100px;
+	padding: 16px 0 0 0;
+	font-weight: bold;
+	color: gray;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	color: black;
 }
 
 /* footer */
@@ -29,3 +61,14 @@ footer {
 	text-align: center;
 }
 
+
+/* gallery */
+
+div#image-and-description {
+	border-right:solid;
+	border-left:solid;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:#ddd;
+	box-shadow: 0px 10px 20px #888888 inset;
+}

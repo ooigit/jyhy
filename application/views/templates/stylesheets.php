@@ -9,4 +9,4 @@
 
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="/assets/stylesheets/custom.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/assets/stylesheets/custom.css" type="text/css" >

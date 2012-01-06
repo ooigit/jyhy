@@ -26,6 +26,18 @@ $(document).ready(function(){
 			//	}
 			//	return false;
 			//});
+
+			// It `really' works!
+			var imgs=document.getElementById('ad-thumb-list');
+			$('ul#sidebar-list').html(imgs.innerHTML.replace(/<img.*title="([^"]*)".*>/ig,"$1"));
+			$('ul#sidebar-list a').each(function(i) {
+				var link=$(this);
+				link.click(function() {
+					$('ul#ad-thumb-list a.'+link.attr("class")).trigger("click");
+					return false;
+				});
+			});
+			//do NOT ask me why
 		});
 	});
 });
@@ -54,14 +66,14 @@ code {
 }
 #gallery {
 	padding: 30px;
-	background: #e1eef5;
+	background: #ffffff;
 }
 #descriptions {
 	position: relative;
 	float: left;
 	width: 230px;
 	height: 300px;
-	background: #EEE;
+	background: #fff;
 	margin-top: 0px;
 	margin-left: 20px;
 	padding: 10px;
@@ -75,15 +87,18 @@ code {
 }
 </style>
 
-<div class="span-6">
-	side bar
+<div id="sidebar" class="span-6">
+	<ul id="sidebar-list">
+	</ul>
 </div>
 
-<div class="span-18 last">
+<div id="gallery-container" class="span-18 last">
 	<div id="container span-18 last">
 		<div id="gallery" class="ad-gallery span-18 last">
-			<div class="ad-image-wrapper"></div>
-			<div id="descriptions"></div>
+			<div id="image-and-description">
+				<div class="ad-image-wrapper"></div>
+				<div id="descriptions"></div>
+			</div>
 			<div class="ad-nav span-18 last">
 				<div class="ad-thumbs"></div>
 			</div>
