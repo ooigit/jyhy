@@ -20,7 +20,7 @@ $(document).ready(function(){
 			});
 			//$('#toggle-description').click(function() {
 			//	if(!galleries[0].settings.description_wrapper) {
-					galleries[0].settings.description_wrapper = $('#descriptions');
+			galleries[0].settings.description_wrapper = $('#descriptions');
 			//	} else {
 			//		galleries[0].settings.description_wrapper = false;
 			//	}
@@ -29,15 +29,23 @@ $(document).ready(function(){
 
 			// It `really' works!
 			var imgs=document.getElementById('ad-thumb-list');
-			$('ul#sidebar-list').html(imgs.innerHTML.replace(/<img.*title="([^"]*)".*>/ig,"$1"));
-			$('ul#sidebar-list a').each(function(i) {
-				var link=$(this);
-				link.click(function() {
-					$('ul#ad-thumb-list a.'+link.attr("class")).trigger("click");
-					return false;
-				});
-			});
+			document.getElementById('sidebar-list').innerHTML = (
+					imgs.innerHTML.replace(
+						/<img.*title="([^"]*)".*>/ig,"$1"
+						)
+					);
+			var items = document.getElementById("sidebar-list")
+				.getElementsByTagName("a"), i;
+			for (i = 0; i < items.length; i++) {
+				items[i].setAttribute("href", 
+						"javascript:void("+
+						"$('#ad-thumb-list a."+
+						items[i].className.replace(/\s.*/,"")+
+						"')"+".trigger('click')"+
+						");");
+			};
 			//do NOT ask me why
+
 		});
 	});
 });
