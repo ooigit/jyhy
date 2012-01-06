@@ -13,8 +13,14 @@ $navs = array(
 <ul>
 <?php
 reset($navs);
+$current=$_SERVER['REQUEST_URI'];
 while (list($key, $val) = each($navs)) {
-	echo "<li><a href=\"/index.php/$key\">$val</a></li>";
+	$pos=strpos($current, $key);
+	if (strpos($current, $key) === false) {
+		echo "<li class=\"not-current-page\"><a href=\"/index.php/$key\">$val</a></li>";
+	} else {
+		echo "<li class=\"current-page\"><a href=\"/index.php/$key\">$val</a></li>";
+	}
 }
 ?>
 </ul>
