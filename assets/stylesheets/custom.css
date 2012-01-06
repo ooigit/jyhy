@@ -1,3 +1,14 @@
+/* body */
+
+div.main {
+	border-right:solid;
+	border-left:solid;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:#333333;
+}
+
+
 /* header */
 
 nav ul {
@@ -17,6 +28,4 @@ nav ul li {
 footer {
 	text-align: center;
 }
-
-/* containt */
 

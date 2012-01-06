@@ -83,12 +83,10 @@
 				</div>
 			</div>
 		</div>
-		<img src="/assets/images/slide/example-frame.png" width="970" height="460" alt="Example Frame" id="frame">
+		<img src="/assets/images/slide/example-frame.png" width="950" height="460" alt="Example Frame" id="frame">
 	</div>
 </div>
 
-
-<hr />
 <div class="prepend-1 span-5 append-0 last">
 	<span><img src="/assets/images/home/marker.png" />&nbsp;总经理致辞</span>
 	<p><a href="#"><img src="/assets/images/home/manager.png" /></a></p>

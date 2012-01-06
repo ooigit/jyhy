@@ -1,5 +1,5 @@
-<hr />
-<strong>&copy;2011</strong>
-</div>
+		</div>
+		<?php require("footer.php"); ?>
+	</div>
 </body>
 </html>

@@ -75,7 +75,6 @@ code {
 }
 </style>
 
-
 <div class="span-6">
 	side bar
 </div>
