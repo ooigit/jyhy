@@ -1,7 +1,18 @@
 /* sidebar */
-div#sidebar {
-	margin: 20px;
-	background: yellow;
+div#sidebar{
+	margin-top: 40px;
+}
+
+div#sidebar h3{
+	margin-left: 10px;
+	color: #1487D3;
+	font-weight: bold;
+}
+
+div#sidebar ul {
+	list-style-type: none;
+	margin-top: 20px;
+	font-weight: 100%;
 }
 
 /* body */
