@@ -74,7 +74,6 @@ code {
 }
 #gallery {
 	padding: 30px;
-	background: #ffffff;
 }
 #descriptions {
 	position: relative;

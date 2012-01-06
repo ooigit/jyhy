@@ -1,5 +1,17 @@
+.ad-image-wrapper {
+	border: solid;
+	border-color: #e1e2e3;
+	border-width: 2px;
+}
+
+
 .ad-gallery {
   width: 600px;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+	border-color: #e1e2e3;
+	border-width: 2px;
 }
 .ad-gallery, .ad-gallery * {
   margin: 0;
@@ -78,7 +90,7 @@
         text-align: left;
         width: 100%;
         z-index: 2;
-        background: url(opa75.png);
+        /*background: url(opa75.png);*/
         color: #000;
       }
       * html .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
