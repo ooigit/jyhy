@@ -78,10 +78,10 @@ nav ul li a:hover {
 
 /* footer */
 
-footer {
+#footer {
 	display: block;
 	text-align: center;
-	background: red;
+	color: #999;
 }
 
 
