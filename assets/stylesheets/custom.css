@@ -51,21 +51,12 @@ nav ul li {
 	display: block;
 	float: left;
 	text-align: center;
-	background-image: url("/assets/images/nav/nav.jpg");
-}
-
-nav ul li.not-current-page {
-}
-
-nav li:hover, nav li.current-page {
-	background-image: url("/assets/images/nav/nav-hover.jpg");
 }
 
 nav ul li a {
 	display: block;
 	height: 24px;
-	width: 100px;
-	padding: 16px 0 0 0;
+	padding: 10px 0 0 0;
 	font-weight: bold;
 	color: gray;
 	text-decoration:none;
@@ -74,6 +65,36 @@ nav ul li a {
 nav ul li a:hover {
 	color: black;
 	text-decoration:none;
+}
+
+nav ul li.first.current-page {
+	width: 139px;
+	background-image: url("/assets/images/nav/nav-first-current-page.jpg");
+}
+
+nav ul li.first.not-current-page {
+	width: 139px;
+	background-image: url("/assets/images/nav/nav-first-not-current-page.jpg");
+}
+
+nav ul li.middle.current-page {
+	width: 130px;
+	background-image: url("/assets/images/nav/nav-middle-current-page.jpg");
+}
+
+nav ul li.middle.not-current-page {
+	width: 130px;
+	background-image: url("/assets/images/nav/nav-middle-not-current-page.jpg");
+}
+
+nav ul li.last.current-page {
+	width: 133px;
+	background-image: url("/assets/images/nav/nav-last-current-page.jpg");
+}
+
+nav ul li.last.not-current-page {
+	width: 133px;
+	background-image: url("/assets/images/nav/nav-last-not-current-page.jpg");
 }
 
 /* footer */

@@ -1,4 +1,4 @@
-<nav class="span-18 last">
+<nav class="span-21 last">
 
 <?php
 $navs = array(
@@ -14,13 +14,23 @@ $navs = array(
 <?php
 reset($navs);
 $current=$_SERVER['REQUEST_URI'];
+$i=0;
 while (list($key, $val) = each($navs)) {
-	$pos=strpos($current, $key);
+	$str = "<li class=\"";
 	if (strpos($current, $key) === false) {
-		echo "<li class=\"not-current-page\"><a href=\"/index.php/$key\">$val</a></li>";
+		$str .= "not-current-page";
 	} else {
-		echo "<li class=\"current-page\"><a href=\"/index.php/$key\">$val</a></li>";
+		$str .= "current-page";
 	}
+	if ($i == 0)
+		$str .= " first";
+	else if ($i == (count($navs)-1))
+		$str .= " last";
+	else
+		$str .= " middle";
+	$str .= "\"><a href=\"/index.php/$key\">$val</a></li>";
+	echo $str;
+	$i++;
 }
 ?>
 </ul>
