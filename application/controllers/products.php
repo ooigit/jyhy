@@ -62,5 +62,10 @@ class Products extends CI_Controller {
 		$this->load->view('products/gallery');
 	}
 
+	public function gallery_sidebar()
+	{
+		$this->load->view('products/gallery-sidebar');
+	}
+
 }
 ?>
