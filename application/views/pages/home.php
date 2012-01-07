@@ -78,8 +78,10 @@
 	<p><a href="product"><img src="/assets/images/home/file.png" /></a></p>
 	<p><span>华宇公司始终坚持诚信经营、创新发展的理念。</span></p>
 </div>
-<div class="prepend-0 span-4 append-1 last">
-	<a href="news"><img src="/assets/images/home/sale.jpg" /></a>
-	<a href="jobs"><img src="/assets/images/home/field.jpg" /></a>
-	<a href="contact"><img src="/assets/images/home/consult.jpg" /></a>
+<div class="prepend-0 span-5 append-0 last">
+	<a href="news"><img src="/assets/images/home/news.jpg" /></a>
+	<a href="jobs"><img src="/assets/images/home/jobs.jpg" /></a>
+	<a href="contact"><img src="/assets/images/home/contact.jpg" /></a>
+	<p></p>
 </div>
+

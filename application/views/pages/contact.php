@@ -47,8 +47,8 @@ window.onload = loadScript;
 		</div>
 		<div class="prepend-0 span-12 append-0 last">
 			<!-- 地图画板 -->
-				<div id="map" style="BORDER-RIGHT: 3px inset; BORDER-TOP: 3px inset; BACKGROUND: transprant; BORDER-LEFT: 3px inset; BORDER-BOTTOM: 3px inset; text-align:center; width:450px; height:250px"></div>
-			<br />
+				<div id="map" style="BORDER-RIGHT: 3px inset; BORDER-TOP: 3px inset; BACKGROUND: transprant; BORDER-LEFT: 3px inset; BORDER-BOTTOM: 3px inset; text-align:center; width:450px; height:280px"></div>
+			<p><br /></p>
 		</div>
 	</div>
 </div>

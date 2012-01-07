@@ -3,6 +3,7 @@
 <script type="text/javascript" src="/assets/jquery/ad-gallery/jquery.ad-gallery.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
+	$('#sidebar').load('products/gallery-sidebar');
 	$('.ad-thumbs').load('products/gallery', function () {
 		$(function() {
 			$('img.image1').data('ad-desc', 'Whoa! This description is set through elm.data("ad-desc") instead of using the longdesc attribute.<br>And it contains <strong>H</strong>ow <strong>T</strong>o <strong>M</strong>eet <strong>L</strong>adies... <em>What?</em> That aint what HTML stands for? Man...');
@@ -26,25 +27,6 @@ $(document).ready(function(){
 			//	}
 			//	return false;
 			//});
-
-			// It `really' works!
-			var imgs=document.getElementById('ad-thumb-list');
-			document.getElementById('sidebar-list').innerHTML = (
-					imgs.innerHTML.replace(
-						/<img.*title="([^"]*)".*>/ig,"$1"
-						)
-					);
-			var items = document.getElementById("sidebar-list")
-				.getElementsByTagName("a"), i;
-			for (i = 0; i < items.length; i++) {
-				items[i].setAttribute("href", 
-						"javascript:void("+
-						"$('#ad-thumb-list a."+
-						items[i].className.replace(/\s.*/,"")+
-						"')"+".trigger('click')"+
-						");");
-			};
-			//do NOT ask me why
 
 		});
 	});
