@@ -1,5 +1,5 @@
 #container {
-	width:880px;
+	width:960px;
 	padding:10px;
 	margin:0 auto;
 	position:relative;
@@ -7,7 +7,7 @@
 }
 
 #example {
-	width:900px;
+	width:960px;
 	height:450px;
 	position:relative;
 }
@@ -15,10 +15,10 @@
 #frame {
 	position:absolute;
 	z-index:0;
-	width:1070px;
+	width:1170px;
 	height:460px;
 	top:0px;
-	left:-98px;
+	left:-119px;
 }
 
 /*
@@ -40,7 +40,7 @@
 */
 
 .slides_container {
-	width:870px;
+	width:920px;
 	overflow:hidden;
 	position:relative;
 	display:none;
@@ -55,7 +55,7 @@
 */
 
 .slides_container div.slide {
-	width:870px;
+	width:940px;
 	height:370px;
 	display:block;
 }
@@ -103,7 +103,7 @@
 	padding:5px 20px 0 20px;
 	background:#000;
 	background:rgba(0,0,0,.5);
-	width:840px;
+	width:940px;
 	font-size:1.3em;
 	line-height:1.33;
 	color:#fff;

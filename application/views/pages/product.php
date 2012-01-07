@@ -74,7 +74,6 @@ code {
 }
 #gallery {
 	padding: 30px;
-	background: #ffffff;
 }
 #descriptions {
 	position: relative;
@@ -95,7 +94,8 @@ code {
 }
 </style>
 
-<div id="sidebar" class="span-6">
+<div id="sidebar" class="prepend-1 span-5">
+	<h3>产品展示</h3>
 	<ul id="sidebar-list">
 	</ul>
 </div>
