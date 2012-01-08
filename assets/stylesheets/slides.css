@@ -9,13 +9,14 @@
 
 /* IE 6 */
 * html #side_container {
-	padding-top: 0px;
 }
 
-/* IE 7 8*/
+/* IE 7*/
 *+html #side_container {
-	padding-top: 00px;
 }
+
+/* IE 9*/
+:root #side_container {padding-left: 10px\0;}
 
 #example {
 	width:960px;

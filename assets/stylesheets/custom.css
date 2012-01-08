@@ -79,6 +79,17 @@ html .shadow{
 
 /* header */
 
+img#logo {
+	width: 120px;
+	margin-top:10px;
+	margin-left: 10px;
+}
+
+div#searchbar {
+	float:right;
+	margin-right: 100px;
+}
+
 header {
 }
 
@@ -99,8 +110,8 @@ nav ul li {
 
 nav ul li a {
 	display: block;
-	height: 24px;
-	padding: 10px 0 0 0;
+	height: 20px;
+	padding: 14px 0 0 0;
 	font-weight: bold;
 	color: gray;
 	text-decoration:none;
@@ -112,33 +123,33 @@ nav ul li a:hover {
 }
 
 nav ul li.first.current-page {
-	width: 139px;
-	background-image: url("/assets/images/nav/nav-first-current-page.jpg");
+	width: 138px;
+	background-image: url("/assets/images/nav/nav-first-current-page.png");
 }
 
 nav ul li.first.not-current-page {
-	width: 139px;
-	background-image: url("/assets/images/nav/nav-first-not-current-page.jpg");
+	width: 138px;
+	background-image: url("/assets/images/nav/nav-first-not-current-page.png");
 }
 
 nav ul li.middle.current-page {
 	width: 130px;
-	background-image: url("/assets/images/nav/nav-middle-current-page.jpg");
+	background-image: url("/assets/images/nav/nav-middle-current-page.png");
 }
 
 nav ul li.middle.not-current-page {
 	width: 130px;
-	background-image: url("/assets/images/nav/nav-middle-not-current-page.jpg");
+	background-image: url("/assets/images/nav/nav-middle-not-current-page.png");
 }
 
 nav ul li.last.current-page {
 	width: 133px;
-	background-image: url("/assets/images/nav/nav-last-current-page.jpg");
+	background-image: url("/assets/images/nav/nav-last-current-page.png");
 }
 
 nav ul li.last.not-current-page {
 	width: 133px;
-	background-image: url("/assets/images/nav/nav-last-not-current-page.jpg");
+	background-image: url("/assets/images/nav/nav-last-not-current-page.png");
 }
 
 /* footer */

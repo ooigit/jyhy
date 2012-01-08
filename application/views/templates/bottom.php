@@ -1,5 +1,5 @@
 		</div>
-		<?php require("footer.php"); ?>
 	</div>
+	<?php require("footer.php"); ?>
 </body>
 </html>
