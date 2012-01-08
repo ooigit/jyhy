@@ -1,10 +1,20 @@
-#container {
+#side_container {
 	width:960px;
-	padding-top: -10;
-	padding-left:10px;
+	padding-top: 0px;
+	padding-left:0px;
 	margin:0 auto;
 	position:relative;
 	z-index:0;
+}
+
+/* IE 6 */
+* html #side_container {
+	padding-top: 0px;
+}
+
+/* IE 7 8*/
+*+html #side_container {
+	padding-top: 00px;
 }
 
 #example {
@@ -18,8 +28,19 @@
 	z-index:0;
 	width:1170px;
 	height:460px;
-	top:0px;
-	left:-119px;
+	top:-5px;
+	left:-109px;
+}
+
+/* IE 6 */
+* html #frame {
+	left: -100px;
+}
+
+/* IE 7 8*/
+*+html #frame {
+	top:5px;
+	left: -100px;
 }
 
 /*
@@ -28,9 +49,21 @@
 
 #slides {
 	position:absolute;
-	top:15px;
-	left:4px;
+	top:10px;
+	left:14px;
 	z-index:100;
+}
+
+/* IE 6 */
+* html #slides {
+	top: 20px;
+	left: 24px;
+}
+
+/* IE 7 8*/
+*+html #slides {
+	top: 20px;
+	left: 24px;
 }
 
 /*

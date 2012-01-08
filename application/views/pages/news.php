@@ -1,18 +1,10 @@
-<style type="text/css">
-table {
-	border:solid;
-	border-width:1px;
-	border-color:#eee;
-}
-</style>
-
-<div id="sidebar" class="prepend-1 span-5">
-	<h3>新闻中心</h3>
-	<ul id="sidebar-list">
-		<li>产品新闻</li>
-		<li>公司新闻</li>
-		<li>员工新闻</li>
-	</ul>
+<div id="sidebar2" class="prepend-1 span-5">
+<h3>新闻中心</h3>
+<ul>
+<li><a href="#">产品新闻</a></li>
+<li><a href="#">公司新闻</a></li>
+<li><a href="#">员工新闻</a></li>
+</ul>
 </div>
 
 <div id="content" class="span-18 last">

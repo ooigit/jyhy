@@ -6,8 +6,8 @@ $navs = array(
 	"news" => "新闻中心",
 	"product" => "产品展示",
 	"jobs" => "招聘信息",
-	"about" => "关于我们",
-	"contact" => "联系我们");
+	"abouts" => "关于我们",
+	"contacts" => "联系我们");
 ?>
 
 <ul>

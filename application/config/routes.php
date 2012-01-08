@@ -46,6 +46,15 @@ $route['products/gallery-sidebar'] = 'products/gallery_sidebar';
 $route['products/(:any)'] = 'products/show/$1';
 $route['products'] = 'products';
 
+$route['jobs/(:any)'] = 'jobs/view/$1';
+$route['jobs'] = 'jobs/view';
+
+$route['abouts/(:any)'] = 'abouts/view/$1';
+$route['abouts'] = 'abouts/view';
+
+$route['contacts/(:any)'] = 'contacts/view/$1';
+$route['contacts'] = 'contacts/view';
+
 $route['default_controller'] = 'pages/view';
 $route['(:any)'] = 'pages/view/$1';
 

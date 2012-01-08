@@ -35,7 +35,7 @@
 	});
 </script>
 
-<div id="container">
+<div id="slide_container">
 	<div id="example">
 		<div id="slides">
 			<div class="slides_container">
@@ -65,12 +65,12 @@
 
 <div class="prepend-1 span-5 append-0 last">
 	<span><img src="/assets/images/home/marker.png" />&nbsp;总经理致辞</span>
-	<p><a href="about"><img src="/assets/images/home/manager.png" /></a></p>
+	<p><a href="abouts/1"><img src="/assets/images/home/manager.png" /></a></p>
 	<p><span>华宇公司始终坚持诚信经营、创新发展的理念。</span></p>
 </div>
 <div class="prepend-1 span-5 append-0 last">
 	<span><img src="/assets/images/home/marker.png" />&nbsp;荣誉证书</span>
-	<p><a href="about"><img src="/assets/images/home/honor.png" /></a></p>
+	<p><a href="abouts/4"><img src="/assets/images/home/honor.png" /></a></p>
 	<p><span>华宇公司始终坚持诚信经营、创新发展的理念。</span></p>
 </div>
 <div class="prepend-1 span-5 append-1 colborder last">
@@ -79,9 +79,9 @@
 	<p><span>华宇公司始终坚持诚信经营、创新发展的理念。</span></p>
 </div>
 <div class="prepend-0 span-5 append-0 last">
-	<a href="news"><img src="/assets/images/home/news.jpg" /></a>
-	<a href="jobs"><img src="/assets/images/home/jobs.jpg" /></a>
-	<a href="contact"><img src="/assets/images/home/contact.jpg" /></a>
+	<a href="/index.php/news"><img src="/assets/images/home/news.jpg" /></a>
+	<a href="/index.php/jobs"><img src="/assets/images/home/jobs.jpg" /></a>
+	<a href="/index.php/contacts"><img src="/assets/images/home/contact.jpg" /></a>
 	<p></p>
 </div>
 

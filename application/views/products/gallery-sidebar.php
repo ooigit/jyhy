@@ -1,4 +1,3 @@
-<div id="sidebar" class="prepend-1 span-5">
 <h3>产品展示</h3>
 <ul id="sidebar-list">
 <li>
@@ -67,4 +66,3 @@
 </a>
 </li>
 </ul>
-</div>
