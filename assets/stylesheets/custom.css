@@ -54,6 +54,8 @@ body {
 
 div.container {
 	background-color: #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 div.main {
@@ -62,7 +64,8 @@ div.main {
 
 .shadow{
 	background: #fff;
-	box-shadow: 0 10px 50px #d1d2d3;
+	box-shadow: 0 10px 50px black;
+
 }
 
 html .shadow{
